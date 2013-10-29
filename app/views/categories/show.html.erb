@@ -1,0 +1,9 @@
+<h1><%= @category.topic %>
+
+<% @posts.each do |post| %>
+  <h3>
+    <ul>
+      <li><%= post.price %> -- <%= post.title %>
+    </ul>
+  </h3>
+<% end %>

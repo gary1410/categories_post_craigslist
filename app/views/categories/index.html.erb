@@ -1,0 +1,7 @@
+<h1>Craigslist Jr Categories</h1>
+
+<% @categories.each do |category| %>
+  <ul>
+    <li><%= link_to "#{category.topic}", category%>
+  </ul>
+<% end %>
